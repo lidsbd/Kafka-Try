@@ -36,7 +36,7 @@ public class MyKafkaConsumer {
         Duration duration = Duration.ofMillis(5000);
         //拉取数据
         while (true) {
-            System.out.println("try git demo");
+            System.out.println("second commit");
             ConsumerRecords<String, String>  records = kafkaConsumer.poll(duration);
             for (ConsumerRecord<String, String> record : records) {
                 System.out.println(record.value());
