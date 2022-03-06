@@ -9,5 +9,6 @@ public class HelloGit {
         System.out.println("hello git3");
         System.out.println("hello hot-fix");
         System.out.println("12:00");
+        System.out.println("12:08 pull");
     }
 }
